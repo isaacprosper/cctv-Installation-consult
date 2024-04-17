@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image:url(images/homeimg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 10px 0 5%;
+    background-color:grey;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    
+    
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(56, 55, 55);
+    border-radius: 30px;
+    padding: 12px 30px;
+    outline: 5px;
+    outline-color: rgb(100, 96, 96);
+    outline-style: inset;
+    margin-top: 5px;
+    
+}
+span{
+    color:gold;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: gold;
+    transition: .3s;
+}
+button{
+    border: none;
+    background-color: gold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color :black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .2s;
+    outline: 5px;
+    outline-color:rgb(100, 96, 96);
+    outline-style: inset;
+    
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+nav ul li a:hover{
+    float:none;
+    background-color:rgb(56, 55, 55);
+    border-radius: 30px;
+    padding: 12px 30px ;
+    outline: 5px;
+    outline-color:rgb(100, 96, 96);
+    outline-style: inset;
+    
+    
+}
+.Home{
+    color: white;
+    padding: 15% 0 30% 10% ;
+    
+    
+}
+.Home h1{
+    padding: 5px;
+    font-size :30px;
+    
+}
+.Home p{
+    font-size: x-large;
+    padding-right: 5px;
+    padding-top: 50px;
+}
+.why{
+    display: flex;
+    padding: 10px;
+    align-items: space-between;
+    margin-top: 10%;
+    
+    
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    min-width:fit-content;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+    
+}
+.why1 {
+    font-size:x-larger;
+    color: gold;
+    padding-top: 30px;
+    
+    
+    
+    
+}
+.why img{
+    margin-top: -20%;
+
+}
+
+.explore-btn{
+    margin-top: 15px;
+}
